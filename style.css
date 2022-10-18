@@ -28,6 +28,8 @@ html {
 
 /* Các thuộc tính riêng lẻ */
 
+/* Header và Carousel */
+
 #header {
   height: 56px;
   width: 100%;
@@ -134,7 +136,7 @@ html {
 }
 
 .btn {
-  min-width: 200px;
+  max-width: 200px;
   margin: 8px;
   padding: 0.25rem;
   background: #fff;
@@ -149,8 +151,8 @@ html {
 }
 
 .browser {
+  max-width: 200px;
   margin: 8px;
-  min-width: 200px;
   background: #222;
   color: #eee;
   border: none;
@@ -158,3 +160,69 @@ html {
   font-size: 0.95rem;
   cursor: pointer;
 }
+
+/* Body */
+
+#body {
+  overflow-x: hidden;
+}
+
+.content {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.detail {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  width: 1000px;
+  padding: 64px 0 112px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  font-size: 2.25rem;
+  font-weight: 800;
+  padding: 0 1rem;
+}
+
+p {
+  margin: 1.75rem 0;
+  font-size: 0.9rem;
+  font-weight: lighter;
+  line-height: 1.5;
+  padding: 0 1rem;
+}
+
+.content-download {
+  padding: 1rem;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f6f6f6;
+}
+
+.text {
+  text-align: center;
+  font-size: 2.25rem;
+  letter-spacing: 1px;
+}
+
+.thumbnail-content {
+  text-transform: uppercase;
+}
+
+.text-content {
+  margin: 1rem 0;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.img-download {
+}
+
+
